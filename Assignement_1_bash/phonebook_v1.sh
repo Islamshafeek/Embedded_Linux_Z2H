@@ -8,11 +8,12 @@ op=$1
 op=${op,,}   #Convert input paramter to lowercase
 
 
-#Display all Function...........................................................................
+#Display all Contacts Function...........................................................................
 function displayAll {
 grep -E "^[a-zA-Z\ ]+,[0-9]+$" $file_path || echo "No Contacts!" 
 }
 
+#Add new contact Function...........................................................................
 function insert {
 read -p "Enter New Name: " newcontact
 if [[ $newcontact =~ ^[a-zA-Z\ ]+$ ]] 
