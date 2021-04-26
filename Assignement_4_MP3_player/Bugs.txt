@@ -1,2 +1,0 @@
-1 - when press any button the msg doesnt change 
-2 - when connect usb it dosent play song automatically  
